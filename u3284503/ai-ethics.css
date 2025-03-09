@@ -1,0 +1,246 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    width: 100%;
+    height: 100%;
+    overflow-x:auto;
+    color: #000000;
+}
+
+
+.main {
+    margin-left: 230px;
+    max-width: calc(100% - 230px);
+    top: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #283618;
+    display: block;
+    position: relative;
+}
+
+.main-image img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:300px; 
+}
+
+.overlay-text {
+    position:absolute;
+    top: 180px;
+    margin-top: 40px;
+    left: 28%;
+    width: 70%;
+    transform: translateX(-31%);
+    text-align:left; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+
+.line1 {
+    font-size: 80px;
+    font-family:sans-serif;
+    background: url(https://thumbs.dreamstime.com/b/teal-orange-yellow-blue-dark-grainy-color-gradient-background-retro-noise-texture-effect-web-banner-header-backdrop-design-277267039.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 100px
+}
+
+.line2 {
+    font-size: 80px;
+    font-family:sans-serif;
+ background:url(https://thumbs.dreamstime.com/b/teal-orange-yellow-blue-dark-grainy-color-gradient-background-retro-noise-texture-effect-web-banner-header-backdrop-design-277267039.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: -50px
+}
+
+.para1 {
+    margin-left: 70px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    max-width: calc(100vw - 400px);
+    text-align:left;
+    font-size:20px;
+    font-family:sans-serif; 
+    font-weight:600;
+    line-height: 1.5;
+    color: #2e343c; 
+}
+.para1back {
+    background-color:#ffffff;
+    padding: 10px;
+
+}
+
+.divider1 {
+    border: none;
+    height:20px;
+    background: url(https://thumbs.dreamstime.com/b/teal-orange-yellow-blue-dark-grainy-color-gradient-background-retro-noise-texture-effect-web-banner-header-backdrop-design-277267039.jpg);
+    background-size: cover;
+    background-position:right; 
+}
+
+.divider2 {
+    border: none;
+    height:13px;
+    background: url(https://thumbs.dreamstime.com/b/teal-orange-yellow-blue-dark-grainy-color-gradient-background-retro-noise-texture-effect-web-banner-header-backdrop-design-277267039.jpg);
+    background-size: cover;
+    background-position:bottom; 
+    margin-top: -1px;
+}
+    
+.para2andimage {
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 10px;
+    text-align: center;
+    font-size:18px;
+    font-family:sans-serif; 
+    font-weight:600;
+    line-height: 2; 
+    text-align:left;
+    color: #f6f6f6;
+}
+
+.para2only {
+    margin-top: -10px;
+}
+
+.para2back {
+    max-width: calc(100vw - 230px);
+    height: 356px;
+    margin-top: -20px;
+    background-color: #2e343c;
+    display: flex;
+}
+
+.para2andimage {
+    width: 100%;
+    margin-left: 60px;
+}
+
+#para2image {
+        position:relative;
+        width: 100%; 
+        overflow:hidden;
+        display: flex;            
+        align-items:center; 
+    }
+
+
+.para3 {
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: center;
+    font-size:18px;
+    font-family:sans-serif; 
+    font-weight:600;
+    line-height: 2; 
+    text-align:left;
+    color: #2e343c;
+}
+
+.para3only {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.para3title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+table {
+  width: 94%;
+  border-collapse: collapse;
+    margin-left: 40px;
+    
+}
+
+td {
+  padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200
+}
+
+th {
+    font-family:sans-serif;
+    font-weight: 600;
+    
+}
+
+td {
+  border-bottom: 1px solid #000;
+   
+}
+
+.image-link {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+}
+
+.image-link img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.image-link .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: .3s ease;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.image-link:hover .overlay {
+  opacity: 1;
+}
+
+.image-link .text {
+  color: #FFFFFF;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+footer {
+  text-align: center;
+    margin-left: 230px;
+  padding: 20px;
+  background-color: #f9f9f9;
+    font-family:sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.footer-content p {
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}

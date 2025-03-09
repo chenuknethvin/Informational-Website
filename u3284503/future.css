@@ -1,0 +1,202 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    color: #000000;
+}
+
+
+.main {
+    margin-left: 230px;
+    max-width: calc(100vw - 230px);
+    top: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #283618;
+    display: block;
+    position: relative;
+}
+
+.main-image img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:300px; 
+}
+
+.overlay-text {
+    position:absolute;
+    top: 180px;
+    margin-top: 40px;
+    left: 28%;
+    width: 70%;
+    transform: translateX(-31%);
+    text-align:left; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+
+.line1 {
+    font-size: 80px;
+    font-family:sans-serif;
+    background: url(https://img.freepik.com/free-vector/abstract-blurred-background_1035-3329.jpg?size=338&ext=jpg&ga=GA1.1.523418798.1710633600&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 100px
+}
+
+.line2 {
+    font-size: 80px;
+    font-family:sans-serif;
+ background:url(https://img.freepik.com/free-vector/abstract-blurred-background_1035-3329.jpg?size=338&ext=jpg&ga=GA1.1.523418798.1710633600&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: -50px
+}
+
+.para1 {
+    margin-left: 80px;
+    margin-top: 220px;
+    margin-bottom: 30px;
+    max-width: calc(100vw - 400px);
+    text-align:left;
+    font-size:20px;
+    font-family:sans-serif; 
+    font-weight:600;
+    line-height: 1.5;
+    color: #2e343c; 
+}
+.para1back {
+    background-color:#ffffff;
+
+}
+
+.divider1 {
+    border: none;
+    height:20px;
+    background: url(https://img.freepik.com/free-vector/abstract-blurred-background_1035-3329.jpg?size=338&ext=jpg&ga=GA1.1.523418798.1710633600&semt=ais);
+    background-size: cover;
+    background-position:bottom; 
+    margin-top: -1px;
+    
+}
+
+.futurmainsection {
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.split-section {
+  display: flex;
+    height: 70vh;
+    
+}
+
+
+.left-side, .right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.left-side {
+  background-color:#f6f6f6;
+   
+}
+
+.right-side {
+  background-color:#f9c236;
+}
+
+.list-point {
+  width: 100%;
+}
+
+dt {
+    font-weight:600;
+    margin-bottom: -5px;
+ 
+}
+
+dd {
+    margin-bottom: 31px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 0px;
+    color: #ffffff;
+    line-height: 1.5
+}
+
+.left-side .list-point {
+  color:#f9c236;
+    margin-top: 0px;
+    font-family:sans-serif;
+    font-size: 25px;
+    text-align: right;
+}
+
+
+.right-side .list-point {
+  color: #ffffff;
+    margin-top: 0;
+    margin-left: 0px;
+    font-family:sans-serif;
+    font-size: 25px;
+    text-align:left;
+}
+
+img {
+  max-width: 100%;
+}
+
+.description-image {
+  width: 550px; 
+  height: 330px;
+  overflow: hidden;
+}
+
+.description-image img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.divider2 {
+    border: none;
+    height:20px;
+    background: url(https://www.shutterstock.com/image-illustration/ultra-wide-yellow-blue-beige-260nw-2416430333.jpg);
+    background-size: cover;
+    background-position:top; 
+    margin-top: -20px;
+}
+
+
+footer {
+  text-align: center;
+    margin-left: 230px;
+  padding: 20px;
+  background-color: #f9f9f9;
+    font-family:sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.footer-content p {
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}

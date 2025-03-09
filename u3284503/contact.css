@@ -1,0 +1,139 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+    margin-left: 230px;
+    max-width: calc(100vw - 230px);
+    top: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #283618;
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+}
+h1 {
+    margin-left: 130px;
+    font-family: Trebuchet MS;
+    background: url(https://img.freepik.com/premium-photo/gradient-vibrant-retro-80s-color-background-noise-grain-dusty-texture-effect_757611-1442.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+body {
+  background-color: #FAF9F6;
+}
+
+input[type=text], select, textarea {
+    font-family: Trebuchet MS;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical
+       
+    
+}
+
+
+input[type=submit] {
+    font-family: Trebuchet MS;
+    background-color: #c72652;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    font-family: Trebuchet MS;
+  background-color: #ec8b39;
+}
+
+
+.container {
+    font-family: Trebuchet MS;
+    border-radius: 5px;
+    background-color: #2e343c;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #FFFFFF;
+    
+}
+
+.info-box {
+    background-color: #2e343c; 
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    padding: 20px;
+    margin: 40px 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.info-box p {
+    margin: 0 0 10px;
+    color: #FFFFFF;
+}
+
+.info-box a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background: #84a09c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.box {
+    flex: 1 calc(33% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 200px;
+    height: 200px;
+    overflow: hidden;  
+    
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+}
+
+
+footer {
+  text-align: center;
+    margin-left: 230px;
+  padding: 20px;
+  background-color: #f9f9f9;
+    font-family:sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.footer-content p {
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
